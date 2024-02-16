@@ -1,0 +1,7 @@
+fastapi
+psycopg2
+pydantic
+python-dotenv
+uvicorn
+uvicorn[standard]
+PyJWT
