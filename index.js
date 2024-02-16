@@ -47,8 +47,8 @@ app.get('/css/admin.css', (req, res) => {
   res.sendFile(path.join(__dirname, 'src/css/admin.css'))
 });
 
-app.get('/assets/eth5.jpg', (req, res) => {
-  res.sendFile(path.join(__dirname, 'src/assets/eth5.jpg'))
+app.get('/assets/bg.jpg', (req, res) => {
+  res.sendFile(path.join(__dirname, 'src/assets/bg.jpg'))
 });
 
 app.get('/js/app.js', (req, res) => {

@@ -32,7 +32,7 @@ window.App = {
                   var endDate =  Date.parse(document.getElementById("endDate").value)/1000;
            
                   instance.setDates(startDate,endDate).then(function(rslt){ 
-                    console.log("tarihler verildi");
+                    console.log("dates set!");
                   });
 
               });     
