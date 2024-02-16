@@ -2,14 +2,21 @@
   "name": "hwc",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "browserify": "^17.0.0",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "truffle": "^5.11.5",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
