@@ -18,25 +18,25 @@ body {
     padding: 40px;
     padding-bottom: 2%;
     padding-top: 2%;
-    border-radius: 5px;
+    border-radius: 18px;
     box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.1);
     text-align: center;
   }
   
   h1 {
     font-size: 32px;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 30px;
   }
 
   h2 {
     font-size: 25px;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 25px;
   }
   
   h3 {
-    color: #ffffff;
+    color: #000000;
   }
 
   p {
@@ -98,3 +98,13 @@ body {
       width: 90%;
     }
   }
+  @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+nav, a {
+  font-family: 'cabin';
+  text-decoration: none;
+  background-color: #198a7b;
+  color: white;
+  border-radius: 5px;
+  padding:10px;
+  margin: 10px;
+}

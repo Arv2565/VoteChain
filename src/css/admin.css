@@ -112,4 +112,13 @@ body {
     background-color: rgba(255, 255, 255, 0.650);
     border-radius: 5px;
   }
+  nav, a {
+    font-family: 'cabin';
+    text-decoration: none;
+    background-color: #198a7b;
+    color: white;
+    border-radius: 5px;
+    padding:10px;
+    margin: 10px;
+  }
   
